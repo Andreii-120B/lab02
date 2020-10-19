@@ -13,6 +13,10 @@ char *get_animal_type_name(enum animal_type type)
 {
 	char *result;
 	switch (type) {
+//Додав людину 
+	case HUMAN:
+		result = "Людина";
+		break;
 	case CAT:
 		result = "Кіт";
 		break;
